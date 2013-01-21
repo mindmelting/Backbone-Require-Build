@@ -1,0 +1,12 @@
+{
+  "name": "Backbone-Require-Compass-Jasmine-Grunt-Boilerplate",
+  "preferGlobal": "true",
+  "version": "0.0.1",
+  "description": "A list of dependencies to install",
+  "dependencies" : {
+    "grunt-contrib-requirejs"   :  "*",
+    "grunt-compass"             :  "*",
+    "grunt-jasmine-task"        :  "*",
+    "grunt-bower"               :  "*"
+  }
+}

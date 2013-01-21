@@ -1,0 +1,23 @@
+{
+  "installedPackages":[
+    {
+      "name":"jQuery"
+    },
+    {
+      "name":"Backbone"
+    },
+    {
+      "name":"Handlebars"
+    },
+    {
+      "name":"Lodash"
+    },
+    {
+      "name":"requireJS"
+    },
+    {
+      "name":"Modernizr"
+    }
+
+  ]
+}

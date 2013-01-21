@@ -1,0 +1,14 @@
+{
+  "name": "Shared Components",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "*",
+    "backbone": "*",
+    "handlebars": "*",
+    "modernizr": "*",
+    "require": "*",
+    "requirejs-text": "*",
+    "requirejs-i18n": "*",
+    "lodash": "*"
+  }
+}
