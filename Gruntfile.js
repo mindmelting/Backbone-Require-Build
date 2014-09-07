@@ -75,7 +75,8 @@ module.exports = function (grunt) {
     },
     coveralls: {
       options: {
-        coverage_dir: 'coverage/'
+        coverage_dir: 'coverage/',
+        force: true
       }
     }
   });
@@ -91,5 +92,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-csscomb');
 
   grunt.registerTask('default', ['karma', 'requirejs', 'sass', 'csscomb', 'jshint']);
+  grunt.registerTask('travis', ['karma', 'coveralls']);
 
 };

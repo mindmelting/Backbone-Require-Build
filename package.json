@@ -23,7 +23,7 @@
     "grunt-karma-coveralls": "~2.5.2"
   },
   "scripts": {
-    "test": "grunt karma"
+    "test": "grunt travis"
   },
   "repository": {
     "type": "git",
