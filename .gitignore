@@ -2,7 +2,7 @@ node_modules/
 js/libs/
 *.min.js
 *.min.js.map
-stylesheets/
+styles/
 jshint.xml
 coverage/
 .sass-cache/
