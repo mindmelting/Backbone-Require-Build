@@ -1,6 +1,8 @@
 Backbone/Marionette/Require Boilerplate project
 ==========
 
+[![Build Status](https://travis-ci.org/mindmelting/Backbone-Require-Build.svg?branch=master)](https://travis-ci.org/mindmelting/Backbone-Require-Build)
+
 An opinionated structure to a Marionette web project.
 
 Uses Karma/Jasmine/Sinon for unit testing (and code coverage)
