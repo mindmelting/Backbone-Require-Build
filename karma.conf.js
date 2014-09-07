@@ -46,8 +46,8 @@ module.exports = function(config) {
     reporters: ['coverage','progress'],
 
     coverageReporter: {
-      type : 'cobertura',
-      file : 'cobertura.xml'
+      type : 'lcov',
+      dir : 'coverage/'
     },
 
 

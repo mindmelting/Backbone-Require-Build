@@ -19,7 +19,8 @@
     "karma-coverage": "~0.2.4",
     "grunt-csscomb": "~3.0.0",
     "grunt-contrib-sass": "~0.8.1",
-    "grunt-contrib-watch": "~0.6.1"
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-karma-coveralls": "~2.5.2"
   },
   "scripts": {
     "test": "grunt karma"

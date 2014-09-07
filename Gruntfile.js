@@ -72,6 +72,11 @@ module.exports = function (grunt) {
           reporterOutput: 'jshint.xml'
         }
       }
+    },
+    coveralls: {
+      options: {
+        coverage_dir: 'coverage/'
+      }
     }
   });
 
@@ -81,6 +86,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-karma-coveralls');
   grunt.loadNpmTasks('grunt-karma');
   grunt.loadNpmTasks('grunt-csscomb');
 
