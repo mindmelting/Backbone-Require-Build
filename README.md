@@ -1,7 +1,7 @@
 Backbone/Marionette/Require Boilerplate project
 ==========
 
-[![Build Status](https://travis-ci.org/mindmelting/Backbone-Require-Build.svg?branch=master)](https://travis-ci.org/mindmelting/Backbone-Require-Build)
+[![Build Status](https://travis-ci.org/mindmelting/Backbone-Require-Build.svg?branch=master)](https://travis-ci.org/mindmelting/Backbone-Require-Build) [![Coverage Status](https://img.shields.io/coveralls/mindmelting/Backbone-Require-Build.svg)](https://coveralls.io/r/mindmelting/Backbone-Require-Build?branch=master)
 
 An opinionated structure to a Marionette web project.
 
