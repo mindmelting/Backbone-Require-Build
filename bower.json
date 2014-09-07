@@ -1,0 +1,25 @@
+{
+  "name": "Backbone-Require-Build",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mindmelting/Backbone-Require-Build",
+  "authors": [
+    "Lawrence Hunt <lawrence.hunt@gmail.com>"
+  ],
+  "description": "Boilerplate for a backbone/marionette/require project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "js/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marionette": "~2.1.0",
+    "require-handlebars-plugin": "~0.8.1",
+    "bootstrap-sass": "https://github.com/twbs/bootstrap-sass.git",
+    "requirejs": "~2.1.14",
+    "requirejs-i18n": "~2.0.4",
+    "jasmine-sinon": "~0.4.0"
+  }
+}

@@ -1,39 +1,39 @@
-Backbone-Require-Build
-======================
+Backbone/Marionette/Require Boilerplate project
+==========
 
-A boilerplate for backbone/require front-end which incorporates Bower to load latest libraries, and Grunt.js as a build script to execute tests and build a production ready set of files.
+An opinionated structure to a Marionette web project.
 
-You will need the following:
-[node.js](http://nodejs.org/), 
-[PhantomJS](http://phantomjs.org/), 
-[Compass](http://compass-style.org/install/)
+Uses Karma/Jasmine/Sinon for unit testing (and code coverage)
 
-Install Grunt and Bower globally:
+Includes bootstrap
 
-```
-npm install grunt -g
-```
+Includes a modal and error module for Marionette (uses bootstrap)
 
-```
-npm install bower -g
-```
+Uses CSSComb and JSHint for linting and reporting
 
-You should now have all the tools you need to setup the boilerplate.
+# Building and Deploying
 
-Running
-```
+```javascript
+sudo gem install sass
+sudo npm install -g grunt-cli
+sudo npm install -g bower
 npm install
-```
-will fetch the grunt libs needed to execute tests and compile the compass stylesheets.
-
-Running
-```
 bower install
 ```
-will download the latest JS libraries as specified in component.json
 
-Running
- ```
+To build the project
+
+```javascript
 grunt
 ```
-will copy the JS libs to inside development, compile stylesheets and build/minimise the require/backbone app.
+
+To serve the project locally
+
+```javascript
+grunt connect
+```
+
+To watch and compile the sass files
+```javascript
+grunt watch
+```

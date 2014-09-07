@@ -1,12 +1,37 @@
 {
-  "name": "Backbone-Require-Compass-Jasmine-Grunt-Boilerplate",
-  "preferGlobal": "true",
+  "name": "Backbone-Require-Build",
   "version": "0.0.1",
-  "description": "A list of dependencies to install",
-  "dependencies" : {
-    "grunt-contrib-requirejs"   :  "*",
-    "grunt-compass"             :  "*",
-    "grunt-jasmine-task"        :  "*",
-    "grunt-bower"               :  "*"
-  }
+  "description": "Boilerplate for a backbone/marionette/require project",
+  "main": "js/init.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-requirejs": "~0.4.4",
+    "connect": "~2.19.1",
+    "karma": "~0.12.16",
+    "grunt-karma": "~0.8.3",
+    "karma-chrome-launcher": "~0.1.4",
+    "karma-jasmine": "~0.1.5",
+    "requirejs": "~2.1.12",
+    "karma-requirejs": "~0.2.2",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "karma-coverage": "~0.2.4",
+    "grunt-csscomb": "~3.0.0",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindmelting/Backbone-Require-Build"
+  },
+  "author": "PeerIndex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindmelting/Backbone-Require-Build/issues"
+  },
+  "homepage": "https://github.com/mindmelting/Backbone-Require-Build"
 }

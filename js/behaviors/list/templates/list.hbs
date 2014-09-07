@@ -1,0 +1,7 @@
+<label for="checked_{{id}}" class="control-label checkbox">
+    {{#if checkboxEnabled}}
+    <input class="checkedSummary" {{#if checked}}checked="checked"{{/if}} id="checked_{{id}}" name="checkedSummary" type="checkbox">
+    {{/if}}
+    <div class="listName" {{#unless checkboxEnabled}}data-action="listAdd"{{/unless}}>{{name}}</div>
+    <span class="pull-right">{{memberCount}}</span>
+</label>

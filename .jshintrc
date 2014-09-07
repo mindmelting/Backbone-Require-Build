@@ -1,0 +1,37 @@
+{
+    "globals": {
+        "require": true,
+        "define": true,
+        "describe": true,
+        "it": true,
+        "expect": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "runs": true,
+        "waits": true,
+        "sinon": true
+    },
+
+    "browser" : true,
+
+    "camelcase": true,
+    "curly": true,
+    "debug": false,
+    "devel": false,
+    "eqeqeq": true,
+    "forin": true,
+    "immed": true,
+    "laxbreak": false,
+    "newcap": true,
+    "noarg": true,
+    "noempty": false,
+    "nonew": true,
+    "nomen": true,
+    "onevar": true,
+    "plusplus": false,
+    "undef": true,
+    "strict": true,
+    "white": true,
+    "unused": true,
+    "indent": 4
+}
